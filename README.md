@@ -1,47 +1,51 @@
+<h1 align="center">✨ CodeSync - Video Calling Interview Platform ✨</h1>
 
-<h1 align="center">✨ CodeSync - Video Calling Interview Platform ✨</h1> <p align="center"> <img src="public/screenshot-for-readme.png" alt="Demo Screenshot" width="80%"> </p> <p align="center"> <b>2025 - <span style="color:#22c55e;">REMOTE INTERVIEW PLATFORM</span></b> </p>
-🏆 Highlights
-Stack: Next.js, TypeScript, Stream, Convex, Clerk
+<p align="center">
+  <img src="public/screenshot-for-readme.png" alt="Demo Screenshot" width="80%">
+</p>
 
-Video Calls, Screen Sharing, Recording
+<p align="center">
+  <b>🚀 2025 — <span style="color:#22c55e;">REMOTE INTERVIEW PLATFORM</span></b>
+</p>
 
-Authentication & Authorization
+---
 
-Flexible Server & Client Components
+## 🏆 Highlights
 
-Dynamic & Static Routing
+- 💻 **Tech Stack**: Next.js + TypeScript, Stream, Convex, Clerk  
+- 🎥 Video Calls  
+- 📤 Screen Sharing  
+- 🎬 Recording  
+- 🔐 Authentication & Authorization  
+- ⚛️ Server & Client Components  
+- 🔄 Dynamic & Static Routes  
+- 🎨 Beautiful UI with **TailwindCSS** + **Shadcn**  
+- ⚡ Server Actions  
 
-Beautiful UI: TailwindCSS + Shadcn
+---
 
-Server Actions
+## ⚡ Quick Start
 
-⚡ Quick Start
-1. Clone & Install
-text
+### 1️⃣ Clone & Install
+```bash
 git clone https://github.com/yourusername/CodeSync-Online-Interview-Platform.git
 cd CodeSync-Online-Interview-Platform
 npm install
-2. Create .env.local
-text
+2️⃣ Create .env.local
+bash
+Copy
+Edit
 NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
 CLERK_SECRET_KEY=
 CONVEX_DEPLOYMENT=
 NEXT_PUBLIC_CONVEX_URL=
 NEXT_PUBLIC_STREAM_API_KEY=
 STREAM_SECRET_KEY=
-Fill the values using your API keys from Clerk / Convex / Stream.
+📝 Fill these with your API keys from Clerk, Convex, and Stream.
 
-3. Run the App
-text
+3️⃣ Run the App
+bash
+Copy
+Edit
 npm run dev
-Visit http://localhost:3000.
-
-🌐 Tech Stack
-Framework	Purpose
-Next.js	Web/app framework
-TypeScript	Type safety
-Clerk	User auth/login
-Convex	Realtime backend
-Stream.io	Video/chat features
-TailwindCSS	Styling/layout
-Shadcn UI	React components
+Visit http://localhost:3000 in your browser.
